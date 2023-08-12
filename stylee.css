@@ -1,0 +1,121 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.img
+{
+	width: 22rem;
+	height: 14rem;
+	border-radius: 2rem;
+}
+.hero-section
+{
+	display: grid;
+	place-content: center;
+	height: inherit;
+	position: relative;
+
+}
+.bg-main
+{
+	height: 85vh;
+	position: relative;
+	background-color: rgb(29,28,29);
+}
+.bg-color
+{
+	background-color: rgb(29,28,29);
+}
+.nav-link
+{
+	color: white;
+}
+.nav-link:hover
+{
+	color: skyblue;
+}
+.text-light-grey
+{
+	color: rgb(96,95,97);
+}
+.card
+{
+	width: 280px;
+	height: 400px;
+	border-radius: 20px;
+	transition: transform 0.2s;
+}
+.card:hover
+{
+	box-shadow: 0px 0px 5px 5px rgb(221,222,226);
+	transform: scale(1.1);
+}
+.icon-span
+{
+	background-color: #1089ff;
+	color: white;
+	padding: 15px;
+	border-radius: 50px;
+}
+.fa-star
+{
+	color: magenta;
+}
+.section-b
+{
+	background-image: linear-gradient(rgba(22,22,22,0.9), rgba(22,22,22,0.9)),url("Digital.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow: hidden;
+	padding: 2rem 0;
+	height: 70vh;
+	margin-top: 20px;
+
+}
+.form
+{
+	width: 30%;
+}
+.contact-details
+{
+	background-color: #232123;
+	width: 60%;
+	height: 50%;
+}
+.icon-div
+{
+	font-size: 3rem;
+}
+.links a
+{
+	text-decoration: none;
+	color: white;
+}
+.footer
+{
+	width: 50%;
+}
+.custom-shape-divider-bottom-1691486781 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1691486781 svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 161px;
+}
+
+.custom-shape-divider-bottom-1691486781 .shape-fill {
+    fill: #FFFFFF;
+}
